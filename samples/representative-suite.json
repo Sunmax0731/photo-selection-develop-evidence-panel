@@ -1,0 +1,90 @@
+{
+  "product": "photo-selection-develop-evidence-panel",
+  "generatedAt": "2026-05-07T23:59:26Z",
+  "scenarios": [
+    {
+      "id": "happy-path",
+      "records": [
+        {
+          "title": "撮影選別・現像証跡パネル",
+          "selectionReason": "撮影選別・現像証跡パネル selectionReason",
+          "nextAction": "採用写真ごとに用途、現像メモ、再編集メモをレポート化する",
+          "developSnapshot": "撮影選別・現像証跡パネル developSnapshot",
+          "reviewDate": "撮影選別・現像証跡パネル reviewDate",
+          "id": "hp-001"
+        }
+      ],
+      "expected": {
+        "passes": 1,
+        "failures": 0,
+        "warnings": 0
+      }
+    },
+    {
+      "id": "missing-required",
+      "records": [
+        {
+          "selectionReason": "撮影選別・現像証跡パネル selectionReason",
+          "nextAction": "採用写真ごとに用途、現像メモ、再編集メモをレポート化する",
+          "developSnapshot": "撮影選別・現像証跡パネル developSnapshot",
+          "reviewDate": "撮影選別・現像証跡パネル reviewDate",
+          "id": "missing-001"
+        }
+      ],
+      "expected": {
+        "passes": 0,
+        "failures": 1,
+        "warnings": 0
+      }
+    },
+    {
+      "id": "warning",
+      "records": [
+        {
+          "title": "撮影選別・現像証跡パネル",
+          "selectionReason": "撮影選別・現像証跡パネル selectionReason",
+          "nextAction": "採用写真ごとに用途、現像メモ、再編集メモをレポート化する",
+          "reviewDate": "撮影選別・現像証跡パネル reviewDate",
+          "id": "warn-001"
+        }
+      ],
+      "expected": {
+        "passes": 0,
+        "failures": 0,
+        "warnings": 1
+      }
+    },
+    {
+      "id": "mixed-batch",
+      "records": [
+        {
+          "title": "撮影選別・現像証跡パネル",
+          "selectionReason": "撮影選別・現像証跡パネル selectionReason",
+          "nextAction": "採用写真ごとに用途、現像メモ、再編集メモをレポート化する",
+          "developSnapshot": "撮影選別・現像証跡パネル developSnapshot",
+          "reviewDate": "撮影選別・現像証跡パネル reviewDate",
+          "id": "mixed-ok-001"
+        },
+        {
+          "title": "撮影選別・現像証跡パネル",
+          "selectionReason": "撮影選別・現像証跡パネル selectionReason",
+          "developSnapshot": "撮影選別・現像証跡パネル developSnapshot",
+          "reviewDate": "撮影選別・現像証跡パネル reviewDate",
+          "id": "mixed-bad-001"
+        },
+        {
+          "title": "撮影選別・現像証跡パネル",
+          "selectionReason": "撮影選別・現像証跡パネル selectionReason",
+          "nextAction": "採用写真ごとに用途、現像メモ、再編集メモをレポート化する",
+          "reviewDate": "撮影選別・現像証跡パネル reviewDate",
+          "id": "warn-001"
+        }
+      ],
+      "expected": {
+        "passes": 1,
+        "failures": 1,
+        "warnings": 1
+      }
+    }
+  ]
+}

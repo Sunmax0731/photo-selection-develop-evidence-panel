@@ -1,0 +1,83 @@
+{
+  "nonPickupRank": 28,
+  "nonPickupTier": "P1",
+  "nonPickupScore": 63,
+  "nonPickupDomain": "AdobePlugin",
+  "nonPickupIdeaNo": 3,
+  "nonPickupIdeaName": "撮影選別・現像証跡パネル",
+  "nonPickupRepository": "photo-selection-develop-evidence-panel",
+  "nonPickupPublishTarget": "BOOTH / GitHub Release",
+  "searchOrder": [
+    "D:\\AI\\AdobePlugin\\created_idea_003_photo-selection-develop-evidence-panel",
+    "D:\\AI\\AdobePlugin\\idea_003_photo-selection-develop-evidence-panel.zip",
+    "D:\\AI\\IDEAS\\AdobePlugin\\created_idea_003_photo-selection-develop-evidence-panel",
+    "D:\\AI\\IDEAS\\AdobePlugin\\idea_003_photo-selection-develop-evidence-panel.zip"
+  ],
+  "exactFolder": "D:\\AI\\AdobePlugin\\created_idea_003_photo-selection-develop-evidence-panel",
+  "exactFolderExists": true,
+  "exactRootZip": "D:\\AI\\AdobePlugin\\idea_003_photo-selection-develop-evidence-panel.zip",
+  "exactRootZipExists": false,
+  "exactFolderZip": "D:\\AI\\AdobePlugin\\created_idea_003_photo-selection-develop-evidence-panel\\idea_003_photo-selection-develop-evidence-panel.zip",
+  "exactFolderZipExists": true,
+  "ideasExactFolder": "D:\\AI\\IDEAS\\AdobePlugin\\created_idea_003_photo-selection-develop-evidence-panel",
+  "ideasExactFolderExists": false,
+  "ideasExactZip": "D:\\AI\\IDEAS\\AdobePlugin\\idea_003_photo-selection-develop-evidence-panel.zip",
+  "ideasExactZipExists": true,
+  "fallbackDomainFolders": [
+    "D:\\AI\\AdobePlugin\\created_idea_003_photo-selection-develop-evidence-panel"
+  ],
+  "fallbackIdeasFolders": [],
+  "selectedZip": "D:\\AI\\AdobePlugin\\created_idea_003_photo-selection-develop-evidence-panel\\idea_003_photo-selection-develop-evidence-panel.zip",
+  "selectedZipExists": true,
+  "zipRequiredFilesPresent": {
+    "metadata.json": true,
+    "README.md": true,
+    "01_REQUIREMENTS.md": true,
+    "02_SPECIFICATION.md": true,
+    "03_DESIGN.md": true,
+    "04_IMPLEMENTATION_PLAN.md": true,
+    "05_TEST_PLAN.md": true,
+    "06_RELEASE_CHECKLIST.md": true
+  },
+  "zipMetadata": {
+    "domain": "AdobePlugin",
+    "no": 3,
+    "platform": "AdobePlugin",
+    "field": "写真選別・現像",
+    "integration": "Lightroom Classic",
+    "idea": "撮影選別・現像証跡パネル",
+    "overview": "採用候補、現像設定、書き出し履歴、使用先メモを写真カードとして管理する。",
+    "problem": "選別理由や現像意図が、書き出し後に追いにくい。",
+    "similar": "Lightroom Classic, Photo Mechanic, Capture One",
+    "diff": "採用理由、用途、公開先、再編集メモを残し、Photoshop仕上げ前の引き継ぎにも使う。",
+    "parent": "Plugins",
+    "startPromptFile": "START_PROMPT.md",
+    "documents": [
+      "START_PROMPT.md",
+      "README.md",
+      "01_REQUIREMENTS.md",
+      "02_SPECIFICATION.md",
+      "03_DESIGN.md",
+      "04_IMPLEMENTATION_PLAN.md",
+      "05_TEST_PLAN.md",
+      "06_RELEASE_CHECKLIST.md",
+      "metadata.json"
+    ],
+    "repositoryName": "photo-selection-develop-evidence-panel",
+    "repositoryTitle": "photo-selection-develop-evidence-panel",
+    "zipFile": "idea_003_photo-selection-develop-evidence-panel.zip"
+  },
+  "metadataRepositoryMatches": true,
+  "metadataDomainMatches": true,
+  "zipMojibakeDetected": false,
+  "readmeAtTargetRepoBeforeWork": false,
+  "readmeAtTargetRepoBeforeWorkNote": "対象 repo は作業開始時点で存在しなかったため README.md も存在しない。",
+  "hostInference": {
+    "host": "Lightroom",
+    "reason": "metadata.json の integration が Lightroom Classic で、アイデア名も撮影選別と現像証跡を示すため。",
+    "officialReferences": [
+      "https://developer.adobe.com/console/servicesandapis/lightroom-classic"
+    ]
+  },
+  "reconstructionPolicy": "正式 docs は ZIP 本文の丸写しではなく、NON PICKUP 行、metadata、ドメイン docs、created_idea pack の要点から正常な日本語で再構成した。"
+}
