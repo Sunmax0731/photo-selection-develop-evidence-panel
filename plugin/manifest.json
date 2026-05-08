@@ -1,0 +1,18 @@
+{
+  "id": "com.sunmax0731.photo-selection-develop-evidence-panel",
+  "name": "撮影選別・現像証跡パネル",
+  "version": "0.1.0-alpha.1",
+  "manifestVersion": 5,
+  "host": {
+    "app": "Lightroom",
+    "minVersion": "1.0.0"
+  },
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "closed-alpha-panel",
+      "label": "撮影選別・現像証跡パネル",
+      "mainPath": "panel.html"
+    }
+  ]
+}
