@@ -76,7 +76,7 @@
     "host": "Lightroom",
     "reason": "metadata.json の integration が Lightroom Classic で、アイデア名も撮影選別と現像証跡を示すため。",
     "officialReferences": [
-      "https://developer.adobe.com/console/servicesandapis/lightroom-classic"
+      "https://developer.adobe.com/apis/creativecloud/lightroomclassic.html"
     ]
   },
   "reconstructionPolicy": "正式 docs は ZIP 本文の丸写しではなく、NON PICKUP 行、metadata、ドメイン docs、created_idea pack の要点から正常な日本語で再構成した。"
